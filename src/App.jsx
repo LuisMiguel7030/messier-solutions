@@ -20,20 +20,20 @@ class App extends Component {
   render() {
     const history = createHistory();
     return (
-        <Router history={history} >
-        <ScrollToTop>
-          <Menu />
-          <Route exact path='/' component={HomePage} />
-          <Route exact path='/about' component={AboutPage} />
-          <Route exact path='/service' component={ServicePage} />
-          <Route exact path='/tools' component={ToolsPage} />
-          <Route exact path='/contact' component={ContactForm} />
-          <Route exact path='/movil' component={MovilPage} />
-          <Route exact path='/web' component={MovilPage} />
-          <Route exact path='/marketing' component={MarketingPage} />
-          <Footer />
-        </ScrollToTop>  
-        </Router>  
+        <div>
+          <ScrollToTop>
+            <Menu />
+            <Route exact path='/' component={HomePage} />
+            <Route exact path='/about' component={AboutPage} />
+            <Route exact path='/service' component={ServicePage} />
+            <Route exact path='/tools' component={ToolsPage} />
+            <Route exact path='/contact' component={ContactForm} />
+            <Route exact path='/movil' component={MovilPage} />
+            <Route exact path='/web' component={MovilPage} />
+            <Route exact path='/marketing' component={MarketingPage} />
+            <Footer />
+          </ScrollToTop>  
+        </div>  
     );
   }
 }
