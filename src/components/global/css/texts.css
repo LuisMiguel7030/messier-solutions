@@ -1,0 +1,61 @@
+:root {
+    --dark-primary-color: #165367;
+    --primary-color: #2282AD;
+    --accent-color: #66B84D;
+    --text-color: #FFFFFF;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --divider-color: #BDBDBD;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.maintitle-text {
+    text-align: center;
+    color: var(--dark-primary-color); 
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.subtitle-text {
+    text-align: center;
+    color: var(--primary-color); 
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.title-text {
+    text-align: center;
+    color: var(--primary-text-color); 
+    font-family: 'Poppins', sans-serif;
+}
+
+.extra-light {
+    font-weight: 200;
+}
+
+.medium {
+   font-weight: 500;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.text {
+    text-align: center;
+    color: var(--secondary-text-color); 
+    font-family: 'Poppins', sans-serif;
+}
+
+.white-text {
+    text-align: center;
+    color: var(--text-color); 
+    font-family: 'Poppins', sans-serif;
+}
+
+

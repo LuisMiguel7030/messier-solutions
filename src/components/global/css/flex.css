@@ -1,0 +1,45 @@
+.flex-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 50px
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.flex-item {
+    margin: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1380px) {
+    .flex-container {
+        flex-wrap: wrap;
+    }
+}
+
+
+/*-------------------------- SERVICE FLEX --------------------------*/
+
+.service-flex {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service-flex div {
+    width: 400px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+

@@ -1,0 +1,94 @@
+:root {
+    --dark-primary-color: #165367;
+    --primary-color: #2282AD;
+    --accent-color: #66B84D;
+    --text-color: #FFFFFF;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --divider-color: #BDBDBD;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    transition: color .25s ease-in-out, 
+                background-color .25s ease-in-out,
+                border-color- .25s ease-in-out;
+}
+
+.btn.transparent {
+    background-color: transparent;
+}
+
+.btn.btn-circle {
+    border-radius: 1.875rem;
+}
+
+/*---------------------- BUTTON COLOR ----------------------*/
+
+.btn.border-dark-primary {
+    color: var(--dark-primary-color);
+    border: 2px solid var(--dark-primary-color);
+}
+
+.btn.border-primary {
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+
+}
+
+.btn.primary {
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.btn.border-white {
+    color: white;
+    border: 2px solid white;
+}
+
+.btn.white {
+    color: black;
+    border: 2px solid white;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*----------------------- BUTTON HOVER -----------------------*/
+
+.border-primary:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.primary:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.border-white:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+/*------------------------- BUTTON SIZE -------------------------*/
+
+.small {
+    padding: 15px 0;
+    width: 146px;
+}
+
+.fluid {
+    width: 100%;
+    height: 54px;
+}

@@ -1,0 +1,141 @@
+:root {
+    --dark-primary-color: #165367;
+    --primary-color: #2282AD;
+    --accent-color: #66B84D;
+    --text-color: #FFFFFF;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --divider-color: #BDBDBD;
+}
+
+/*---------------------- tools card ----------------------*/
+:root {
+    --radius-card: 10px;
+}
+
+.card {
+    position: relative;
+    width: 500px;
+    height: 512px;
+    margin-bottom: 25px;
+    border-radius: var(--radius-card);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hidden-card {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: top 1s,left 1s,  width 1s, height 1s ;
+}
+
+.card img {
+    max-width: 100%;
+    height: 65%;
+    border-radius:  var(--radius-card)  var(--radius-card) 0 0;
+}
+
+.card h1 {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 800;
+    width: 400px;
+}
+
+.card-content{
+  position: absolute;
+  bottom: 0;
+  width: auto;
+  height: 180px;
+  border-radius: 0 0  var(--radius-card)  var(--radius-card);
+  padding: -10px;
+  background-color: var(--dark-primary-color);
+}
+
+.card-content h4 {
+    padding: 11px 50px;
+    font-weight: 100;
+}
+
+.card-content h4 strong{
+    font-weight: 600;
+}
+
+.hidden-card:hover {
+    top: -30px;
+    left: -30px;
+    width: 560px;
+    height: 560px;
+    background-color: white;
+    box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+
+/*----------------- team card --------------- */
+
+.team-item{
+    position: relative;
+    border-radius: 4px;
+}
+
+.team-item img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.team-wrap {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    background-color: rgba(34, 34, 34, .6);
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.team-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    transform: translateY(-10px);
+}
+
+.team-name {
+    font-size: .8125rem;
+    letter-spacing: .3px;
+    margin: 0 0 5px 0;
+}
+
+.team-role{
+  font-size: .75rem;
+  opacity: .6;
+}
+
+.team-name, .team-role {
+    color: #fff
+}
+
+.team-wrap, .team-item, .team-content {
+    transition: all .4s ease-in-out;
+}
+
+.team-item:hover {
+    transform: translateY(-3px);
+}
+
+.team-item:hover .team-wrap {
+    opacity: 1;
+}
+
+.team-item:hover .team-content {
+    transform: translateY(0);
+}
