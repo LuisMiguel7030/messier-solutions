@@ -32,3 +32,9 @@ button.icon .sentemail{
     top: 14px;
     left: 35%;
 }
+
+@media (max-width: 767px) {
+    button.icon .sentemail{
+        left: 25%;
+    }
+}

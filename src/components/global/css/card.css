@@ -77,6 +77,13 @@
     z-index: 1;
 }
 
+
+@media (max-width: 480px) {  
+    .card-content h4 {
+        padding: 0 20px;
+    }
+}
+
 /*----------------- team card --------------- */
 
 .team-item{

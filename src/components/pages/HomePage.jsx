@@ -22,6 +22,7 @@ import klaus from '../global/images/klaus.jpeg'
 import user4 from '../global/images/user4.jpeg'
 import miguel from '../global/images/miguel.jpeg'
 import luismiguel from '../global/images/luismiguel.jpeg'
+import juan from '../global/images/juan.jpeg';
 
 const HomePage = () => (
     <div>
@@ -56,7 +57,7 @@ const HomePage = () => (
                 <Team photo={klaus} name='Klaus Thelen' ocupation='Fundador' />
                 <Team photo={andres} name='Andres Perez' ocupation='Desarrollador' />
                 <Team photo={jorge} name='Jorge Pinto' ocupation='Desarrollador' />
-                <Team photo={user4} name='Diana Pinto' ocupation='Diseñador' />
+                <Team photo={juan} name='Juan David Galindo' ocupation='Auditor de Seguridad' />
                 <Team photo={miguel} name='Luis Miguel Ferro' ocupation='Diseñador' />               
             </div>
             <div className='grid-center'>

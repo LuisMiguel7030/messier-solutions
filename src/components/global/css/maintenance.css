@@ -1,13 +1,13 @@
 .maintenance-container-1 {
     position: absolute;
-    top: 300px;
+    top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);  
 }
 
 .maintenance-container-2 {
     position: absolute;
-    top: 475px;
+    top: 430px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -21,6 +21,8 @@
     top: 610px;
     left: 50%;
     transform: translate(-50%, -50%);  
+    width: 300px;
+    text-align: center;
 }
 
 .maintenance-container-4 {
@@ -59,6 +61,46 @@
 .maintenance-container-3 img:hover {
     animation: bounce 1.5s normal;
     transform-origin: center bottom;
+}
+@media (max-width: 1024px) {  
+    .maintenance-container-1 {
+        top: 200px
+    }
+    .maintenance-container-1 h2{
+        width: 500px;
+    }
+
+    .maintenance-container-2 {
+        top: 360px;
+    }
+
+    .maintenance-container-3 {
+        top: 490px;  
+    }
+
+    .maintenance-container-4 {
+        top: 570px; 
+    }
+}
+
+@media (max-width: 780px) {  
+    .maintenance-container-1 {
+        top: 200px
+    }
+    .maintenance-container-1 h2{
+        font-size: 25px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 480px) {  
+    .maintenance-container-1 {
+        top: 200px
+    }
+    .maintenance-container-1 h2{
+        font-size: 20px;
+        width: 300px;
+    }
 }
 
 @keyframes bounce {
