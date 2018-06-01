@@ -16,7 +16,7 @@ const componentName = () => {
                 Desarrollo de aplicaciones a la medida para dispositivos moviles. 
                 Tenemos en cuenta los dos sistemas operativos moviles mas usados en la actualidad.
             </p>
-            <Link className='btn white small' to='/movil' >ver más</Link>
+            <Link className='btn white small width' to='/movil' >ver más</Link>
         </div>
         <div>
             <img src={phone} alt="" height='340px'/>
@@ -25,7 +25,7 @@ const componentName = () => {
 
       <div className='service-flex primary' >
         <div>
-            <img src={web} alt="" height='300px'/>
+            <img src={web} alt="" height='300px' />
         </div>
         <div>
             <h2 className='justify'>Soluciones Web</h2>
@@ -34,7 +34,7 @@ const componentName = () => {
                 y del lado del cliente con diseño de un modelo de negocios optimo. 
                 Implementacion de medidas de aseguramiento de la informacion.
             </p>
-            <Link className='btn white small' to='/web' >ver más</Link>
+            <Link className='btn white small width' to='/web'>ver más</Link>
         </div>
       </div>
 
@@ -47,7 +47,7 @@ const componentName = () => {
             posicionamiento en buscadores, redes sociales y publicidad online, entre muchos servicios
             que ofrecemos.
             </p>
-            <Link className='btn white small' to='/marketing' >ver más</Link>
+            <Link className='btn white small width' to='/marketing' >ver más</Link>
         </div>
         <div>
             <img src={marketing} alt="" height='300px'/>

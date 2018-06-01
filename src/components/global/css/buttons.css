@@ -84,7 +84,10 @@
 /*------------------------- BUTTON SIZE -------------------------*/
 
 .small {
-    padding: 15px 0;
+    padding: 15px 25px;
+}
+
+.small.width {
     width: 146px;
 }
 
