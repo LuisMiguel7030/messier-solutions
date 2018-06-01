@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App.jsx';
+import App from '../App.jsx';
 import { BrowserRouter } from 'react-router-dom';
-import './components/global/css/normalize.css';
+import '../components/global/css/normalize.css';
 
 ReactDOM.render(
 	<BrowserRouter>
