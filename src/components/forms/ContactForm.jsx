@@ -4,7 +4,7 @@ import { NotificationContainer, NotificationManager } from 'react-notifications'
 import sent from '../global/icons/sentmail.svg';
 
 const axiosInstance = axios.create({
-    baseURL: 'http://127.0.0.1:8000/',
+    baseURL: 'http://wwww.messiersolutions.com/api/sendemail/',
   });
 
 class ContactForm extends Component {

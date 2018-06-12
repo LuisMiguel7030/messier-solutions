@@ -12,7 +12,6 @@ const browserConfig = {
         filename: 'bundle.js'
     },
     plugins: [
-        new CleanWebpackPlugin(['src']),
         new HtmlWebpackPlugin({
             template: './public/index.html'
         })
