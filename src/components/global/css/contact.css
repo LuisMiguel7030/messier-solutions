@@ -1,0 +1,43 @@
+.background-contact {
+    position: relative;
+    background-image: url('../images/contact.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.opacity-contact {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 45, 58, 0.418);
+}
+
+.textarea-contact {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textarea-contact h1 {
+    color: #fff;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.textarea-contact h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.opacity-contact img{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+

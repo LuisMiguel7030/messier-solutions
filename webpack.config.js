@@ -33,7 +33,7 @@ const browserConfig = {
                 ]
             },
             {   
-                test: /\.(png|svg|jpg|jpeg|eot|woff|ttf|gif)$/,
+                test: /\.(ico|png|svg|jpg|jpeg|eot|woff|ttf|gif)$/,
                 use: [
                   'file-loader'
                 ]

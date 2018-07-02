@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import ContactForm from '../forms/ContactForm.jsx';
 import '../global/css/maintenance.css'
 import mantenimiento from '../global/images/mantenimiento.png';
 import facebook from '../global/icons/facebook-gris.svg';

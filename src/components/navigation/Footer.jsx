@@ -38,12 +38,12 @@ const Footer = () => {
                 <h4>Contáctenos</h4>
                 <section>
                     <img src={phone} alt=""/>
-                    <h5>3135970500</h5>
+                    <h5>3134970500 - 3118795669</h5>
                 </section>
                 
                 <section>
                     <img src={mail} alt=""/>
-                    <h5>contact@messiersolutions.com</h5>
+                    <h5>info@messiersolutions.com</h5>
                 </section>   
             </div>
         </div>

@@ -27,13 +27,6 @@ class ContactForm extends Component {
       this.onSubmit = this.onSubmit.bind(this);
     };
 
-    componentDidMount() {
-        let toHref = window.location.href.split('/');
-        if(toHref[3] === 'contact'){
-            document.getElementById('navbar').className += " text-white";
-        }
-    };
-
     handleChange = (e) => {
         this.setState({
             send: { ...this.state.send, [e.target.name]: e.target.value }
@@ -84,7 +77,7 @@ class ContactForm extends Component {
   render() {
     const {send, error} = this.state;
     return (
-      <div>
+        <div>
             <div className='contact-container' >
                 <div className='flex-middle'>
                         <form id='contact-form' onSubmit={this.onSubmit} className='contact-grid'>
@@ -109,7 +102,7 @@ class ContactForm extends Component {
                 </div> 
             </div> 
             <NotificationContainer/>
-      </div>
+        </div>
     )
   }
 };
